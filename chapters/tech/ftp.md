@@ -8,7 +8,7 @@
 | section  | Data Transport |
 | keywords | Data Transport |
 
-
+### Old Text
 
 FTP is an acronym for File Transfer Protocol [@www-ftp-wiki]. It
 is network protocol standard used for transferring files between two
@@ -33,7 +33,7 @@ access the files from the server.
 
 
 
-mgm3IU summary review Mark Miller, FA18-523-63:
+### New Text
 
 FTP is an initialism for File Transfer Protocol which does exactly as
 its name describes, transfers files between hosts. FTP has been in use
@@ -53,7 +53,7 @@ and more.
 For two connected devices, the simplicity of the command to transfer
 files is very effective for familiar *NIX users. FTP can also be used
 in a simplified console that includes many Unix basic commands, such
-as ‘mkdir’ while permitting the same aforementioned functionality. For
+as `mkdir` while permitting the same aforementioned functionality. For
 security purposes, usernames, and passwords are required and can be
 implemented in the command syntax, which is not recommended as
 password can appear in plain text in the operating system log files
@@ -67,8 +67,6 @@ It is the backbone for many file transfer services and can alleviate
 the need of a Hadoop Distributed File System environment using
 effective scripting and permissions to enable access to required data.
 It also has important usage for data/disaster recovery in many
-corporations’ storage environments. The data is ensured to be accurate
+corporations' storage environments. The data is ensured to be accurate
 once transferred and has appropriate security in place to ensure
-proper data usage across the systems in question.   References “Linux
-Man Page”. Retrieved from: https://linux.die.net/man/1/ftp. Retrieved
-on 9/10/2018
+proper data usage across the systems in question.
